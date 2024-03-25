@@ -32,7 +32,7 @@ dikkeKorst.addEventListener("click", verander4)
 
 
 var klaarKnop = document.querySelector("#finishBtn:nth-child(1)")
-var resetKnop = document.querySelector("#finishBtn:nth-child(2)")
+var resetKnop = document.querySelector("#finishBtn2:nth-child(2)")
 
 
 function verander5() {
@@ -48,12 +48,13 @@ resetKnop.addEventListener("click", verander6);
 
 
 
+// document.querySelector("#finishBtn:nth-child(1)") ik heb geleerd om verschillende bijv. buttons te selecteren 
+// met behulp van chat gpt door te vragen: kan ik met .querySelector alleen het eerste element wat in mijn DOM staat 
+// selecteren, of kan ik ook hetzelfde element maar bijv eentje erna selecteren. en toen kreeg ik de info om nth-child te gebruiken. 
 
 
 
-
-
-// Bronnen:
+// Bronnen voor img:
 // cartoon meisje met pizza: https://www.istockphoto.com/nl/vector/meisje-eten-pizza-schattig-kid-fast-food-gm1170509344-323928528
 // alle andere Images: https://www.shutterstock.com/search/cartoon-pizza-crust en https://www.vecteezy.com
 
